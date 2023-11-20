@@ -1,9 +1,13 @@
 package com.example.bibliotecabackend.models;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import lombok.*;
+
+@Getter @Setter
+@NoArgsConstructor @AllArgsConstructor
+@ToString
+@Entity
+@Table(name = "usuarios")
 
 public class Usuario {
 
